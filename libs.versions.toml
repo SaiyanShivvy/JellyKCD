@@ -1,0 +1,5 @@
+[versions]
+jellyfin = "1.4.6"
+
+[libraries]
+jellyfin-core = { module = "org.jellyfin.sdk:jellyfin-core", version.ref = "jellyfin" }
